@@ -116,10 +116,12 @@ function playGame (deck){
                 alert (`Tie! Player cards are even! Player 1 Score: ${player1Score}, Player 2 Score:${player2Score}.`);
            }
     }
+    
 
+    // this loop will run after the previous for loop iterates through 26 times, then a winner is declared based on whose score is >.
     if(player1Score > player2Score || player1Score === 26){
         alert(`Player 1 is the Winner! Player 1 Score: ${player1Score}, Player 2 Score: ${player2Score}.`);
-       } else if(player12Score > player1Score || player2Score === 26){
+       } else if(player2Score > player1Score || player2Score === 26){
         alert(`Player 2 is the Winner! Player 2 Score: ${player2Score}, Player 1 Score: ${player1Score}.`);
        } else if(player1Score === 26 && player2Score ===26){
         alert(`We have a tie!`);
