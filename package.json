@@ -1,0 +1,28 @@
+{
+  "name": "week-06-devtools_debugging_and_unit_tests",
+  "version": "1.0.0",
+  "description": "tests for wargame",
+  "main": "war.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkjamerson55/warGame.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "tests"
+  ],
+  "author": "Derek Jamerson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkjamerson55/warGame/issues"
+  },
+  "homepage": "https://github.com/dkjamerson55/warGame#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
